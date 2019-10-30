@@ -1,0 +1,69 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400') 
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean');
+header
+{	
+	margin: 20px 10px 30px 10px;
+	font-family: 'Black Han Sans', sans-serif;
+	color: #2696c6;
+	font-size:60px;
+	text-align:center;
+}
+body{
+	background-color:#fbfee9;
+	color: #021ba4;	
+	font-family: '맑은 고딕', '돋움', '고딕';
+	font-size:20px;
+	
+}
+div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	text-align: center;
+}
+ul{
+	list-style:none;
+	background-color: #deeffe;
+	text-align: left;
+	margin-left:20px;
+	margin-right:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#sect{
+	background-color: #deeffe;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+}
+a{
+	text-decoration: underline;
+	color: #0000a0;
+}
+table{
+	border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    margin : 20px 10px;
+    width: 100%;
+    border: 1px solid #444444;
+    
+}
+th, td {
+    border: 1px solid #444444;
+  }
+th{
+	width: 147px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    background: #b9ddfd;
+}
+td{
+	 width: 349px;
+    padding: 10px;
+    vertical-align: top;
+    background: #deeffe;
+  
+}
